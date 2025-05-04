@@ -1,0 +1,258 @@
+Status: Succeeded
+Test Event Name: Test
+
+Response:
+null
+
+Function Logs:
+"Width": 0.25127336382865906,
+"Height": 0.3544195294380188,
+"Left": 0.3453691601753235,
+"Top": 0.161003977060318
+},
+"AgeRange": {
+"Low": 22,
+"High": 28
+},
+"Smile": {
+"Value": true,
+"Confidence": 61.990692138671875
+},
+"Eyeglasses": {
+"Value": true,
+"Confidence": 99.99961853027344
+},
+"Sunglasses": {
+"Value": true,
+"Confidence": 99.99842834472656
+},
+"Gender": {
+"Value": "Male",
+"Confidence": 93.37491607666016
+},
+"Beard": {
+"Value": true,
+"Confidence": 99.80973052978516
+},
+"Mustache": {
+"Value": true,
+"Confidence": 94.13771057128906
+},
+"EyesOpen": {
+"Value": true,
+"Confidence": 99.99995422363281
+},
+"MouthOpen": {
+"Value": true,
+"Confidence": 75.49597930908203
+},
+"Emotions": [
+{
+"Type": "HAPPY",
+"Confidence": 56.18359375
+},
+{
+"Type": "SURPRISED",
+"Confidence": 11.79861831665039
+},
+{
+"Type": "CALM",
+"Confidence": 2.45819091796875
+},
+{
+"Type": "FEAR",
+"Confidence": 0.034809112548828125
+},
+{
+"Type": "ANGRY",
+"Confidence": 0.020182132720947266
+},
+{
+"Type": "CONFUSED",
+"Confidence": 0.015795230865478516
+},
+{
+"Type": "DISGUSTED",
+"Confidence": 0.0014841556549072266
+},
+{
+"Type": "SAD",
+"Confidence": 4.76837158203125e-05
+}
+],
+"Landmarks": [
+{
+"Type": "eyeLeft",
+"X": 0.4238799214363098,
+"Y": 0.29303330183029175
+},
+{
+"Type": "eyeRight",
+"X": 0.5354115962982178,
+"Y": 0.3005692660808563
+},
+{
+"Type": "mouthLeft",
+"X": 0.42441877722740173,
+"Y": 0.41246503591537476
+},
+{
+"Type": "mouthRight",
+"X": 0.5175184011459351,
+"Y": 0.4186926782131195
+},
+{
+"Type": "nose",
+"X": 0.48138922452926636,
+"Y": 0.3605726957321167
+},
+{
+"Type": "leftEyeBrowLeft",
+"X": 0.38149359822273254,
+"Y": 0.26268270611763
+},
+{
+"Type": "leftEyeBrowRight",
+"X": 0.4516577422618866,
+"Y": 0.2593417167663574
+},
+{
+"Type": "leftEyeBrowUp",
+"X": 0.4185802638530731,
+"Y": 0.25083422660827637
+},
+{
+"Type": "rightEyeBrowLeft",
+"X": 0.5154414176940918,
+"Y": 0.2637529969215393
+},
+{
+"Type": "rightEyeBrowRight",
+"X": 0.5751712918281555,
+"Y": 0.2757132947444916
+},
+{
+"Type": "rightEyeBrowUp",
+"X": 0.5470085144042969,
+"Y": 0.2596389651298523
+},
+{
+"Type": "leftEyeLeft",
+"X": 0.4030492901802063,
+"Y": 0.291115403175354
+},
+{
+"Type": "leftEyeRight",
+"X": 0.44559651613235474,
+"Y": 0.2956165671348572
+},
+{
+"Type": "leftEyeUp",
+"X": 0.42420852184295654,
+"Y": 0.28702473640441895
+},
+{
+"Type": "leftEyeDown",
+"X": 0.42381224036216736,
+"Y": 0.298338919878006
+},
+{
+"Type": "rightEyeLeft",
+"X": 0.5129123330116272,
+"Y": 0.30018264055252075
+},
+{
+"Type": "rightEyeRight",
+"X": 0.5541208982467651,
+"Y": 0.3012920022010803
+},
+{
+"Type": "rightEyeUp",
+"X": 0.5361590385437012,
+"Y": 0.29460611939430237
+},
+{
+"Type": "rightEyeDown",
+"X": 0.5342465043067932,
+"Y": 0.3057684302330017
+},
+{
+"Type": "noseLeft",
+"X": 0.45503032207489014,
+"Y": 0.3720536530017853
+},
+{
+"Type": "noseRight",
+"X": 0.49625399708747864,
+"Y": 0.37482839822769165
+},
+{
+"Type": "mouthUp",
+"X": 0.4742030203342438,
+"Y": 0.4016611576080322
+},
+{
+"Type": "mouthDown",
+"X": 0.4705556333065033,
+"Y": 0.4373834431171417
+},
+{
+"Type": "leftPupil",
+"X": 0.4238799214363098,
+"Y": 0.29303330183029175
+},
+{
+"Type": "rightPupil",
+"X": 0.5354115962982178,
+"Y": 0.3005692660808563
+},
+{
+"Type": "upperJawlineLeft",
+"X": 0.3467181622982025,
+"Y": 0.2898951768875122
+},
+{
+"Type": "midJawlineLeft",
+"X": 0.3616807758808136,
+"Y": 0.4199826121330261
+},
+{
+"Type": "chinBottom",
+"X": 0.46319931745529175,
+"Y": 0.49867984652519226
+},
+{
+"Type": "midJawlineRight",
+"X": 0.5586386919021606,
+"Y": 0.4331570267677307
+},
+{
+"Type": "upperJawlineRight",
+"X": 0.589526355266571,
+"Y": 0.3062777817249298
+}
+],
+"Pose": {
+"Roll": 5.107576370239258,
+"Yaw": 2.9831790924072266,
+"Pitch": 5.5331830978393555
+},
+"Quality": {
+"Brightness": 81.86219024658203,
+"Sharpness": 98.564208984375
+},
+"Confidence": 99.99983215332031,
+"FaceOccluded": {
+"Value": true,
+"Confidence": 99.99854278564453
+},
+"EyeDirection": {
+"Yaw": 1.2238211631774902,
+"Pitch": -15.905852317810059,
+"Confidence": 3.342923449167756e-08
+}
+}
+END RequestId: 428c8043-bd2d-4dda-9782-c780d2b4f75b
+REPORT RequestId: 428c8043-bd2d-4dda-9782-c780d2b4f75b	Duration: 1819.06 ms	Billed Duration: 1820 ms	Memory Size: 128 MB	Max Memory Used: 77 MB	Init Duration: 507.16 ms
+
+Request ID: 428c8043-bd2d-4dda-9782-c780d2b4f75b

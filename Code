@@ -1,0 +1,16 @@
+import json
+import boto3
+
+client = boto3.client('rekognition')
+
+def lambda_handler(event, context):
+    # TODO implement
+    bucket_name = "aws-facial-rekognition".strip()
+    file_name = "Virat.jpg"
+
+    response = client.  detect_faces(Image={'S3Object':{'Bucket':bucket_name,'Name':file_name}},Attributes=['ALL'])
+
+    #process result
+    for face in response['FaceDetails']:
+        print(json.dumps(face['AgeRange']['Low'], indent=2))
+
